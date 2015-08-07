@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>HAPPY BIRTHDAY JOHN</title>
+<link rel="stylesheet" type="text/css" href="style/fireworks.css" media="screen" />
+<script type="text/javascript" src="script/fireworks.js"></script>
+
+<link rel="stylesheet" href="hbd.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src=" main.js"></script>
+</head>
+
+<body>
+
+<!-- 
+
+ Fireworks elements (cloned and animated via script):
+ 
+ #sound
+ #fireworks-template
+ #fireContainer
+
+ #sound is optional and can be omitted (as can the related .js.)
+
+-->
+
+<a href="#"><img src="million.gif" id="million"/></a>
+
+<div id="hot-single">
+	<h3>HOT SINGLE IN YOUR AREA</h3>
+	<img src="hot-single.jpg" alt="" />
+	<h4>Click <a href="#">here</a> for details</h4>
+</div>
+
+<div id="hate">
+	<h2>Scientists <span class="red">HATE</span> him</h2>
+	<div id="drinking">
+		<img src="drinking.jpg" />
+		<p>BEFORE</p>
+	</div>
+	<div id="dino">
+		<img src="dinosaur.jpg" />
+		<p>AFTER</p>
+	</div>
+	<div class="clear">
+		Man discovers secret human-dinosaur-rockstar transformation recipe! <a href="#">LEARN MORE</a>
+	</div>
+</div>
+
+
+<img src="john.jpg" id="john-pic">
+		<h1 class="blink" id="birthday-text">HAPPY BIRTHDAY JOHN</h1>
+
+<div id="sound">
+
+</div>
+
+<div id="fireworks-template">
+ <div id="fw" class="firework"></div>
+ <div id="fp" class="fireworkParticle"><img src="image/particles.gif" alt="" /></div>
+</div>
+
+<div id="fireContainer"></div>
+
+
+
+
+
+<script>
+
+
+addEventHandler(window,'load', function() {
+	setInterval( function(){createFirework(25,30,3,4,null,null,null,null,false,true);}, 500);
+	
+});
+</script>
+ 
+
+
+</body>
+</html>

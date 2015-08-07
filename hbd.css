@@ -1,0 +1,93 @@
+body {
+  background: black;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+#million {
+  height: 100px;
+}
+
+#john-pic {
+  height: 450px;
+  padding: 30px 0;
+}
+
+#birthday-text {
+  font-size: 50px;
+  color: red;
+}
+
+#hot-single {
+  float: left;
+  color: blue;
+  position: absolute;
+}
+
+#hot-single img {
+  width: 160px;
+}
+
+a {
+  color: red;
+}
+
+#hate {
+  right: 20px;
+  position: absolute;
+  width: 300px;
+  color: white;
+}
+
+#hate img {
+  height: 200px;
+}
+
+#hate p {
+  margin: 0;
+  padding: 0;
+}
+
+#hate h2 {
+  display: block;
+}
+
+#drinking {
+  float: left;
+}
+
+#dino {
+  float: right;
+}
+
+.red {
+  border-bottom: 1px solid red;
+  color: red;
+}
+
+.clear {
+  clear: both;
+  padding-top: 10px;
+}
+
+.blink {
+  animation: blink 0.8s steps(5, start) infinite;
+  -webkit-animation: blink 1s steps(5, start) infinite;
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
