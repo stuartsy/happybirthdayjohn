@@ -66,6 +66,26 @@ a {
   float: right;
 }
 
+#facts {
+  background: white;
+  padding: 10px;
+  /*position: absolute;*/
+  /*left: 20px;*/
+  float: left;
+  /*clear: left;*/
+  margin-top: -50px;
+  color: green;
+}
+
+#quiz {
+  color: pink;
+  /*position: absolute;*/
+  /*right: 20px;*/
+  float: right;
+  margin-top: -50px;
+  padding-right: 50px;
+}
+
 .red {
   border-bottom: 1px solid red;
   color: red;
